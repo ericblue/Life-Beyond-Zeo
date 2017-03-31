@@ -1,0 +1,9 @@
+function LoadBBBOnlineSeal() {document.write('<table cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 4px;"><tr><td align="center">');document.write('<a target="_BLANK" href="https://web-beta.archive.org/web/20110907031732/http://www.bbb.org/boston/business-reviews/educational-research/zeo-inc-in-newtonville-ma-118865/#bbbonlineclick">');document.write('<img src="https://web-beta.archive.org/web/20110907031732/https://ourbbbonline.bbb.org/Shared/Public/BBBOnline/img/');document.write('BBBSealH2.gif');document.write('" border="0" />');document.write('</a>');document.write('</td>');document.write('<td nowrap>&#160;&#160;</td>');document.write('<td style="font-size: 11px; font-weight: bold; font-family: verdana, arial, sans serif; color: #006595;" valign="middle" align="center" nowrap>');document.write('A+');document.write(' BBB Rating<br/>as of ');document.write('9/6/2011');document.write('</td>');document.write('</tr>');document.write('<tr>');document.write('<td colspan="3" valign="middle" align="center" style="padding-top: 4px;" nowrap><a target="_BLANK" href="https://web-beta.archive.org/web/20110907031732/http://www.bbb.org/boston/business-reviews/educational-research/zeo-inc-in-newtonville-ma-118865/#bbbonlineclick" style="font-size: 10px; line-height: 1em; text-decoration: none; font-style: italic; font-family: verdana, arial, sans serif; color: #006595;">Click here for BBB Business Review</a></td>');document.write('</tr>');document.write('</table>');}document.write('<style>div.bbbo1912 {font-family: verdana, sans serif; font-size: 10px;} #bbbo1912lnk {display: none;}</style>');
+/*
+     FILE ARCHIVED ON 03:17:32 Sep 07, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:41 Mar 31, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

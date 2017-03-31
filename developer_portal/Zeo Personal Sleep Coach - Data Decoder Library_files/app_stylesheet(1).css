@@ -1,0 +1,2572 @@
+f/* NEEDED ON EACH SITE */
+ P {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 16px;
+}
+TD {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+LI {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 12px;
+	font-weight: normal;
+}
+a {
+	color: #666666;
+	text-decoration: none;
+}
+a:visited {
+	color: #2c53ad;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+/* Content Font Styles */
+
+.standardContent, .standardContent p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 21px;
+	letter-spacing:0.0em;
+	text-decoration:none;
+}
+.standardContent a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 21px;
+	letter-spacing:0.0em;
+	text-decoration: underline;
+}
+.standardContent a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 21px;
+	letter-spacing:0.0em;
+	text-decoration: underline;
+}
+.standardContent a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #2c53ad;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 21px;
+	letter-spacing:0.0em;
+	text-decoration: underline;
+}
+sup.sup {
+	font-size: .6em;
+}
+sub {
+	font-size: 9px;
+}
+.strike {
+	text-decoration:line-through;
+}
+/* Shopping Cart Font Styles */
+
+
+
+.shoppingcart {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing:0.0em;
+}
+.shoppingcart a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-weight: normal;
+	line-height: 21px;
+	letter-spacing:0.0em;
+	text-decoration:underline;
+}
+.shoppingcart a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 21px;
+	letter-spacing:0.0em;
+	text-decoration: underline;
+}
+.shoppingcart a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #2c53ad;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 21px;
+	letter-spacing:0.0em;
+	text-decoration: underline;
+}
+a.shoppingcart {
+Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.shoppingcart_bold {
+	color: #8b8b8b;
+	font-weight: bold;
+}
+.contentHeadline {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/headerhr.gif) repeat-x;
+	float: left;
+	width: 100%;
+}
+.contentTitle {
+	padding-right: 14px;
+	float: left;
+	background-color: #fff;
+}
+.topAnchor {
+	float: right;
+	background-color: #fff;
+}
+/* Custom Font Styles */
+
+.morningBlue_1 {
+	color: #Bde6f2;
+}
+.morningBlue_2 {
+	color: #91d3ef;
+}
+.morningBlue_3 {
+	color: #52afda;
+}
+.morningBlue_4 {
+	color: #519fb4;
+}
+.morningBlue_5 {
+	color: #166574;
+}
+.sunLight_1 {
+	color: #Fbface;
+}
+.sunLight_2 {
+	color: #Fecf0f;
+}
+.sunLight_3 {
+	color: #Fdb813;
+}
+.sunLight_4 {
+	color: #F89927;
+}
+.sunLight_5 {
+	color: #F36f21;
+}
+.eveningSky_1 {
+	color: #E6eaf0;
+}
+.eveningSky_2 {
+	color: #Cecdbd;
+}
+.eveningSky_3 {
+	color: #9c9b9c;
+}
+.eveningSky_4 {
+	color: #676767;
+}
+.eveningSky_5 {
+	color: #50577b;
+}
+.bold {
+	font-weight:bold;
+}
+.arial8 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8px;
+}
+.arial9 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+}
+.arial10 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+.arial11 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.arial12 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.arial13 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+.arial14 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.arial15 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+.arial16 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+.arial17 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+}
+.arial18 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+.black {
+	color: #000000;
+}
+.white {
+	color: #ffffff;
+}
+.darkgray {
+	color: #666;
+}
+.red {
+	color:#f00;
+}
+.orange {
+	color: #ff842d;
+}
+.grayHeading {
+	color: #8b8b8b;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 28px;
+}
+.yellowHeading {
+	color: #fdb813;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 26px;
+}
+.blackHeading {
+	color: #343434;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 26px;
+}
+.blackHeading a {
+	color: #343434;
+	text-decoration: none;
+	cursor: pointer;
+}
+.blackHeading a:visited {
+	color: #343434;
+	text-decoration: none;
+}
+.blackHeading a:hover {
+	color: #000;
+	text-decoration:underline;
+}
+.reset {
+	margin:0;
+	padding:0;
+	border:0;
+}
+.smalltext {
+	color: #666;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.shareLinks a, .shareLinks a:visited {
+	color:#999999;
+	text-decoration:none;
+}
+.shareLinks a:hover {
+	color:#FDBD24;
+	text-decoration:none;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+#wrapper_alt {
+	position: relative;
+	left: 50%;
+	width: 960px;
+	margin-left: -480px;
+}
+#wrapper2 {
+	width: 974px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+#homeUpperContent {
+	height: 490px;
+	width: 100%;
+	background-color: #fff;
+}
+#zeoHeader {
+}
+#zeoHeader .logo {
+	float: left;
+	width:273px;
+	height:61px;
+}
+#utilityNavigation {
+	float: right;
+	margin: 7px 0 0 0;
+	overflow: hidden;
+	border-bottom: solid 1px #cccccc;
+	clear:both;
+}
+#utilityNavigation a {
+	text-decoration: none;
+	color: #666;
+	font-weight: normal;
+}
+#utilityNavigation a:visited {
+	text-decoration: none;
+	color: #666;
+}
+#utilityNavigation a:hover {
+	text-decoration: none;
+	color: #000;
+	font-weight: normal;
+}
+#utilityNavigation ul {
+	list-style: none;
+	margin: 0px 0 0 0;
+	padding: 0;
+}
+#utilityNavigation li {
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/util_bullet.png) 0px 7px no-repeat;
+	float: left;
+	line-height:1.6em;
+	margin: 0 .75em -.1em -.6em;
+	padding: 0 .5em 0 1em;
+	white-space: nowrap;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #111;
+	font-weight: normal;
+	letter-spacing: -0.02em;
+	text-align: center;
+}
+.navigation {
+	width: 650px;
+	float: right;
+}
+#pageNavigation {
+	float: right;
+	margin: 5px 0 0 0;
+	overflow: hidden;
+}
+#pageNavigation a {
+	text-decoration: none;
+	color: #999;
+}
+#pageNavigation a:visited {
+	text-decoration: none;
+	color: #999;
+}
+#pageNavigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#pageNavigation li {
+	float: left;
+	line-height:1.6em;
+	margin: 0 .75em -.1em -.6em;
+	padding: 0 .1em 0 1em;
+	white-space: nowrap;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	text-align: center;
+}
+#pageNavigation li IMG {
+	outline: none;
+	border: none;
+}
+#homeA_03 {
+	float: left;
+	padding: 29px 0 0 0;
+}
+#homeLowerContent {
+	float: left;
+	width:100%;
+	margin: -23px 0 27px 0;
+}
+#homeLowerContent .howItWorks {
+	float: left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/howitworks.png) 43px 27px no-repeat;
+	height:150px;
+	width: 100%;
+	border-bottom: solid 1px #000;
+}
+#homeLowerContent .howItWorks .content {
+	float: right;
+	height:148px;
+	width: 772px;
+}
+#homeLowerContent .newslogin {
+	float: left;
+	/*background: url(/web/20110810055821im_/http://www.myzeo.com//interface/newslogin.png) 43px 38px no-repeat;*/
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/aboutsleephdr.png) 46px 38px no-repeat;
+	padding:0;
+	width: 100%;
+	border-bottom: solid 1px #000;
+	margin:0;
+}
+#homeLowerContent .newslogin #contentbox1 {
+	float: left;
+	width: 380px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/rndboxbtm380.png) bottom no-repeat;
+	padding: 0 0 9px 0;
+	margin:0 0 0 193px;
+	display: inline;
+}
+.contentbox1Inner {
+	float: left;
+	width: 380px;
+	height: 147px;
+	background: #000 url(/web/20110810055821im_/http://www.myzeo.com//interface/rndboxtop380.png) top no-repeat;
+	padding: 9px 0 0 0;
+	margin:0 0 0 0;
+}
+.contentbox1Inner #newsarea {
+	float: left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/sleepnewshdr.png) no-repeat top left;
+	height: 50px;
+	width: 328px;
+	margin: 25px 0 0 26px;
+	padding:20px 0 0 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #999;
+	display: inline;
+}
+.newslinkbox {
+	float: left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/newslinkbox.png) no-repeat top left;
+	height: 35px;
+	width: 306px;
+	margin: 11px 0 0 26px;
+}
+a.newsanchor {
+	margin-top:7px;
+	float: left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/newslinkhover.png) no-repeat top right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #999;
+	text-decoration: none;
+	padding: 0 34px 0 10px;
+	line-height:19px;
+}
+a.newsanchor:visited {
+	color: #999;
+	text-decoration: none;
+}
+a.newsanchor:hover {
+	background-position:bottom right;
+	color: #fdbd24;
+	text-decoration: none;
+}
+.contentbox1Inner #newsarea a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #999;
+	text-decoration: none;
+	line-height:18px;
+}
+.contentbox1Inner #newsarea a:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #999;
+	text-decoration: none;
+}
+.contentbox1Inner #newsarea a:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #fdbd24;
+	text-decoration: none;
+}
+#homeLowerContent .newslogin #contentbox2 {
+	float: left;
+	width: 380px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/rndboxbtm380.png) bottom no-repeat;
+	padding: 0 0 9px 0;
+	margin:0 0 0 6px;
+	display: inline;
+}
+.contentbox2Inner {
+	float: left;
+	width: 380px;
+	height: 147px;
+	background: #000 url(/web/20110810055821im_/http://www.myzeo.com//interface/rndboxtop380.png) top no-repeat;
+	padding: 9px 0 0 0;
+	margin:0 0 0 0;
+}
+.contentbox2Inner .loginmyzeo {
+	float: left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/loginzeocoach.png) 35px 18px no-repeat;
+	width: 366px;
+	height: 86px;
+	padding: 0 0 16px 0;
+	margin: 0 7px 0 7px;
+	border-bottom: solid 1px #161515;
+	display: inline;
+}
+.contentbox2Inner .registerzeo {
+	float: left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/notregisteredtext.png) 0 0 no-repeat;
+	width: 209px;
+	height: 18px;
+	padding: 0;
+	margin: 17px 7px 0 45px;
+	display: inline;
+}
+.homeLink a {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/arrowstates.gif) no-repeat top right;
+	padding:0 23px 0 0;
+	height: 18px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #999999;
+	float: left;
+	text-decoration: none;
+}
+.homeLink a:hover {
+	background-position:right bottom;
+	color: #fdbd24;
+	text-decoration: none;
+}
+.homeLink_alt a {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/arrowstates2.png) no-repeat top right;
+	padding:0 23px 0 0;
+	height: 18px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #999999;
+	float: left;
+	text-decoration: none;
+}
+.homeLink_alt a:hover {
+	background-position:right bottom;
+	color: #fdbd24;
+	text-decoration: none;
+}
+.homeLink_alt#newslink {
+	float: left;
+	margin: 11px 0 0 26px;
+	padding:0;
+	display: inline;
+}
+.homeLink#howitworks {
+	float: left;
+	margin: 118px 0 0 87px;
+	display: inline;
+}
+.homeLink#videotutorial1 {
+	float: right;
+	margin: 0 0 0 0px;
+}
+.homeLink#videotutorial2 {
+	float: right;
+	margin: 8px 0 0 0px;
+}
+#homeLowerContent .videoTutorials {
+	float: left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/video-center.png) 36px 40px no-repeat;
+	width: 100%;
+	border-bottom: solid 1px #000;
+	padding:0;
+}
+#tutorialLinks {
+	float: left;
+	padding: 111px 0 0 0;
+	margin: 0 13px 0 0;
+	width: 173px;
+	text-align:right;
+	height: 60px;
+	overflow:hidden;
+}
+.videoTutorials .vtFrame {
+	float: left;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/videoframe.png) no-repeat;
+	width: 186px;
+	height: 171px;
+	margin:0 0 0 7px;
+	display:inline;
+}
+#detailvideoContainer .vtFrame {
+	float: left;
+	background:#000;
+	width: 186px;
+	height: 115px;
+	margin:0 0 0 0;
+	display:inline;
+}
+.vtImage {
+	float: left;
+	width: 173px;
+	height: 101px;
+	margin: 7px 6px 0 7px;
+	display:inline;
+}
+.vtTitle {
+	float: left;
+	width: 173px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #fdbd24;
+	line-height: 12px;
+	margin: 7px 6px 0 6px;
+	height: 29px;
+	overflow:hidden;
+	display:inline;
+}
+.vtDetails {
+	float: left;
+	width: 173px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #999999;
+	margin: 8px 6px 0 6px;
+	display:inline;
+}
+.vtDetails ul {
+	float: left;
+	list-style: none;
+	display: inline;
+	margin:0;
+	padding: 0;
+	width:100%;
+}
+.vtDetails li {
+	list-style: none;
+	display: inline;
+	margin:0;
+	padding: 0;
+}
+.vtDetails li.duration {
+	float:left;
+	text-align: left;
+}
+.vtDetails li.date {
+	float: right;
+	text-align: right;
+}
+.videoLink {
+	position:relative;
+	z-index:25;
+	visibility: visible;
+	top: 40px;
+	left: 71px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/videobtns-trans.png) no-repeat top right;
+	padding:0 30px 0 0;
+	height: 30px;
+	float: left;
+}
+.videoLink:hover {
+	background-position:right bottom;
+	color: #fdbd24;
+	text-decoration: none;
+	cursor:pointer;
+}
+.videoLink2 {
+	position:relative;
+	z-index:25;
+	visibility: visible;
+	top: 40px;
+	left: 71px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/videobtns-trans.png) no-repeat top right;
+	padding:0 30px 0 0;
+	height: 30px;
+	float: left;
+}
+.videoLink2:hover {
+	background-position:right bottom;
+	color: #fdbd24;
+	text-decoration: none;
+	cursor:pointer;
+}
+/* Special class for IE6 mouseover 'cuz IE6 is dumb */
+.hover {
+	position:relative;
+	z-index:26;
+	visibility: visible;
+	top: 40px;
+	left: 71px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../interface/videoon.png', sizingMethod='scale');
+	padding:0 30px 0 0;
+	height: 30px;
+	float: left;
+}
+.homeLinkLg a {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/videobtns-trans.png) no-repeat top right;
+	padding:0 30px 0 0;
+	height: 30px;
+	float: left;
+}
+.homeLinkLg a:hover {
+	background-position:right bottom;
+	text-decoration: none;
+}
+.homeLinkLg_alt a {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/videobtns_alt.gif) no-repeat top right;
+	padding:0 30px 0 0;
+	height: 30px;
+	float: left;
+}
+.homeLinkLg_alt a:hover {
+	background-position:right bottom;
+	text-decoration: none;
+}
+.homeLinkLg_alt#login {
+	float: left;
+	margin: 35px 0 0 335px;
+	display: inline;
+}
+.homeLinkLg_alt#register {
+	float: right;
+	margin: 11px 8px 0 0;
+	display: inline;
+}
+#homeLowerContent .sleepConcern {
+	float: left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/sleepconcernhdr.png) 9px 10px no-repeat;
+	border-bottom: solid 1px #000;
+	padding:6px 0 6px 190px;
+}
+.sleepConcern #userinput {
+	float: left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/sc_container.png) 0 0 no-repeat;
+	width: 771px;
+	height: 89px;
+}
+.scSelectbox {
+	float: left;
+	margin: 19px 0 0 21px;
+	display:inline;
+}
+.scSelectbox select {
+	width: 229px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #000;
+}
+.scTextfields {
+	float: left;
+	margin: 18px 0 0 32px;
+	display:inline;
+}
+.scTextfields label {
+	float: left;
+	margin: 0;
+	padding: 5px 0 0 1px;
+	width: 37px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #ffffff;
+}
+.scTextfields ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.scTextfields li {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.scSubmission {
+	float: left;
+	margin: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #666666;
+	width: 288px;
+	display:inline;
+}
+.scSubmissionAlt {
+	float: left;
+	margin: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #666666;
+	display:inline;
+}
+input.subscribe {
+	width: 115px;
+	height: 21px;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/emailfieldbg.png) no-repeat left;
+	padding:3px 0 0 8px;
+	margin:0;
+	border:none;
+}
+input#semail {
+	width: 115px;
+	height: 21px;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/emailfieldbg.png) no-repeat left;
+	padding:3px 0 0 8px;
+	margin:0;
+	border:none;
+}
+.submitLinkLg {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/submitbtns.png) no-repeat right bottom;
+	margin: 15px 0 0 0;
+	padding:0 28px 0 0;
+	height: 22px;
+	float: left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #666666;
+	letter-spacing: -.01em;
+	cursor: pointer;
+}
+.submitLinkLg:hover {
+	background-position:right top;
+	text-decoration: none;
+}
+#zeoFooter {
+	float: left;
+	padding: 0 0 0 11px;
+	width: 100%;
+}
+#zeoFooter .copyright {
+	float: right;
+	padding: 4px 12px 0 0;
+	width: 440px;
+	text-align: right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #666666;
+	
+}
+#zeoFooter .mcafee {
+	float: right;
+	padding: 16px 12px 0 0;
+	width: 460px;
+	text-align: right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #666666;
+}
+
+.bbbo1912	{
+	float:left;
+}
+#zeoFooter .mcafee ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+#zeoFooter .mcafee li {
+	display: inline;
+	margin:0;
+	padding:0 10px 0 0;
+}
+#zeoFooter ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+#zeoFooter li {
+	display: inline;
+	margin:0;
+	padding:0 10px 0 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #999999;
+}
+#zeoFooter li a, #zeoFooter li a:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #999999;
+	text-decoration: none;
+}
+#zeoFooter li a:hover {
+	color: #fdbd24;
+	cursor:pointer;
+	text-decoration: none;
+}
+#zeoFooter .disclaimer {
+	float: left;
+	padding: 16px 0 0 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #666666;
+	width: 415px;
+}
+/* Normal Style */
+#pageHeader {
+	float: left;
+	width: 100%;
+	margin: 30px 0 0 0;
+}
+#anchorbar {
+	float: left;
+	height: 53px;
+	width: 100%;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/anchorbar.gif) no-repeat;
+}
+#anchorbar .end {
+	float: left;
+}
+#pageTypeImage {
+	float: left;
+	height:46px;
+	padding: 7px 15px 0 0;
+	background-color: #fff;
+}
+#anchorbar .anchorNav {
+	float: left;
+}
+#anchorbar .anchorNav ul {
+	list-style: none;
+	margin:0;
+	padding:0 0 0 0;
+}
+#anchorbar .anchorNav li {
+	display: inline;
+	float: left;
+	margin:18px 17px 0 0;
+	padding:0 23px 0 0;
+	height:19px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #8b8b8b;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/anchorbtn.gif) no-repeat right 0px;
+	cursor: pointer;
+}
+a.anchors {
+	color: #8b8b8b;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	cursor: pointer;
+}
+#pageContent {
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/pageborderbtm.gif) bottom no-repeat;
+	width: 100%;
+	padding-bottom:15px;
+	float: left;
+}
+#pageContent .top {
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/pagebordertop.gif) bottom no-repeat;
+	width: 100%;
+	padding:21px 0 0 0;
+	float: left;
+	font-size:0;
+	margin:0;
+}
+#pageContent .inner {
+	background:transparent url(/web/20110810055821im_/http://www.myzeo.com//interface/pagebordermid.gif) repeat-y scroll center top;
+	float:left;
+	padding:18px 41px 18px 33px;
+	width:886px;
+}
+#productContent {
+	width: 100%;
+	padding:26px 0 15px 0;
+	float: left;
+}
+#landingContent {
+	padding:0;
+	float: left;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_breakthrough.png) no-repeat;
+	width: 947px;
+	height:454px;
+	margin: 39px 0 10px 7px;
+}
+#landingContent .shortdesc {
+	float: left;
+	margin: 111px 0px 0 328px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #666666;
+	width:607px;
+	display:inline;
+}
+#landingContent .innerContent {
+	float: left;
+	margin: 26px 0px 0px 328px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #666666;
+	width:350px;
+	display:inline;
+}
+#landingContent .innerContent p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #666666;
+}
+.landingVideo {
+	float:right;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_videoglow.png) no-repeat;
+	height:160px;
+	width:217px;
+	margin: 25px 17px 0 0;
+	padding:10px 0 0 10px;
+}
+.vtImage_alt {
+	float: left;
+	width: 183px;
+	height: 107px;
+	margin: 7px 6px 0 7px;
+	display:inline;
+}
+#landingVideoTitle {
+	float: left;
+	margin: 0 0 0 10px;
+	width:183px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ff9b0b;
+	text-align:center;
+	display: inline;
+}
+.landingAddtoCart {
+	float: left;
+	margin:0 0 0 305px;
+	width:635px;
+	height:68px;
+	font-size:0;
+	padding:15px 0 0 0;
+	display:inline;
+}
+.landingAddtoCart .image {
+	float:left;
+	height:57px;
+	width:132px;
+	margin:0 0 0 15px;
+	display:inline;
+}
+.landingAddtoCart .shortDescription {
+	float:left;
+	height:60px;
+	width:206px;
+	margin:0 0 0 15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	color:#fff;
+	display:inline;
+}
+.landingAddtoCart .addtocart {
+	float: right;
+	margin:0 41px 0 27px;
+	display:inline;
+}
+.landingAddtoCart .addtocart td {
+	color:#fff;
+	padding:0;
+	margin:0;
+}
+#productUpper {
+	float: left;
+	width: 957px;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/details_border_btm.gif) no-repeat bottom;
+	padding-bottom:13px;
+}
+#productUpper .top {
+	width: 100%;
+	padding:11px 0 0 0;
+	float: left;
+	font-size:0;
+	margin:0;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/details_border_top.gif) no-repeat top;
+}
+#productUpper .inner {
+	width: 925px;
+	float: left;
+	padding: 16px;
+	margin:0;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/details_border_mid.gif) repeat-y;
+}
+a.prodlist:link, a.prodlist:hover, a.prodlist:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color: #000;
+	text-decoration:none;
+}
+#productDetailImage {
+	float: left;
+	width: 426px;
+}
+#productViews {
+	float: left;
+	width: 451px;
+	height:63px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_grayprodviews.gif) no-repeat;
+	padding: 9px 0px 11px 12px;
+}
+.prodViewImage {
+	float: left;
+	margin: 0 6px 0 0;
+	padding:1px;
+	font-size:0;
+	line-height:0;
+	cursor: pointer;
+}
+.pvhover {
+	background-color: #ff9900;
+}
+#prodViewIndicator {
+	float: left;
+	width: 421px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/prodviewpoint.gif) no-repeat;
+	background-position: 44px 0;
+	height: 8px;
+	font-size:0;
+}
+.prodViewImage IMG {
+	margin: 0;
+	padding:0;
+}
+#detailNewsSignup {
+	float: right;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/detailnewssignup.gif) no-repeat 0 8px;
+	width: 452px;
+	height:83px;
+	padding: 8px 0 0 0;
+}
+#landingNewsSignup {
+	float: left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/landingnewssignup.gif) no-repeat 0 8px;
+	width: 590px;
+	height:83px;
+	padding: 8px 0 0 0;
+	margin-left: 24px;
+	display: inline;
+}
+#signuparea {
+	float: left;
+	margin:7px 0 0 12px;
+	display:inline;
+}
+#signuparea ul {
+	float: left;
+	padding:0;
+	margin:0;
+	display:inline;
+	list-style: none;
+}
+#signuparea li {
+	float: left;
+	padding:0;
+	margin:0 3px 0 0;
+	display:inline;
+}
+#signupHeading {
+	margin: 17px 0 0 12px;
+	padding:0;
+	font-weight: bold;
+	float: left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #ff9900;
+}
+#productDetailDesc {
+	float: right;
+	width: 453px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #000;
+}
+/*#productDetailDesc 	{
+margin: 0;
+padding: 0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:22px;
+color: #000;
+} */
+
+h1.detailName {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	color: #000;
+	margin:0;
+	padding: 0;
+	line-height:22px;
+}
+#prodDetailDescOne {
+	float: left;
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 13px;
+	padding:9px 0 15px 0;
+	line-height: 20px;
+}
+#prodDetailDescTwo {
+	float: left;
+}
+#prodDetailDescTwo ul {
+	margin:0 0 0 15px;
+	padding:0;
+	line-height: 17px;
+}
+#prodDetailDescTwo li {
+	font-size:11px;
+	margin:0;
+	padding:0;
+	line-height: 18px;
+}
+span.nosale {
+	font-weight: bold;
+	color: #666;
+}
+.productSelectionContainer {
+	float: left;
+	width: 453px;
+	margin: 0 0 12px 0;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_proddetail_optioncontainer.gif) top left repeat-x;
+}
+.productSelectionContainer .topRound {
+	float:left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_proddetail_optioncontainer_top.gif) top left no-repeat;
+	height: 11px;
+	font-size: 0;
+	margin:0;
+	padding:0;
+	width:453px;
+}
+ul.highlights {
+	float: left;
+	margin: 11px 0 0 0;
+	padding: 3px 0 9px 0;
+	list-style: none;
+	width:421px;
+	border-top: solid 1px #cccccc;
+}
+ul.highlights li {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/highlight_arrowhead.gif) no-repeat left;
+	padding: 0 0 0 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size:12px;
+	font-weight: bold;
+	line-height: 18px;
+}
+ul.highlights li.alt {
+	background: none;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size:12px;
+	font-weight: normal;
+	text-align:right;
+}
+.productSelectionContainer .mid {
+	float:left;
+	margin:0;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_proddetail_optioncontainer_btm.gif) bottom left no-repeat;
+	padding: 0 16px 0px 16px;
+	width:421px;
+}
+span.itemno {
+	float: right;
+	margin: -17px 0 0 0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size:11px;
+	font-weight: normal;
+	line-height: 18px;
+}
+#purchaseOptions {
+	float:left;
+	width:421px;
+	padding:0;
+	margin:0;
+	line-height:10px;
+}
+.relatedProducts {
+	float:left;
+	width:440px;
+	border-bottom: solid 1px #e6e6e6;
+}
+.relatedProducts .headline {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#999;
+	font-size:12px;
+	font-weight:bold;
+	padding-bottom:3px;
+}
+.relatedProducts dl {
+	float:left;
+	margin:0;
+	width: 100%;
+	padding:10px 0 10px 0;
+	border-top: solid 1px #e6e6e6;
+	display: inline;
+}
+.relatedProducts dt {
+	float:left;
+	padding:0;
+	margin:0;
+	height:56px;
+}
+.relatedProducts dd {
+	float:left;
+	margin:0;
+	padding-top:4.5%;
+	padding-left:12px;
+}
+.relatedProducts dd a {
+	font-weight: normal;
+	font-size:12px;
+	color: #578de7;
+	font-weight:bold;
+}
+/*
+#purchaseOptions td	{
+color: #000;
+}
+*/
+/*
+td.detailTextdesc	{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #666666;
+line-height:18px;
+font-weight: bold;
+padding: 0 0 15px 0;
+}
+
+td.detailText	{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #000;
+line-height:18px;
+font-weight: bold;
+padding: 0 0 15px 0;
+}
+*/
+
+
+
+#cartContent {
+	width: 100%;
+	padding:31px 0 15px 0;
+	float: left;
+	margin:0;
+}
+#cartContent .top {
+	width: 100%;
+	padding:0;
+	float: left;
+	font-size:0;
+	margin:0;
+}
+#cartContent .inner {
+	float: left;
+	width: 938px;
+}
+#waitLayer {
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/icons/closeup_top.png) top no-repeat;
+	padding:10px 0 0;
+	width:264px;
+	z-index:10020;
+	position:absolute;
+	height:88px;
+	display:none;
+}
+#waitLayerBtm {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/icons/closeup_bottom.png) bottom no-repeat;
+	font-size:0;
+	padding:0 0 16px;
+	width:100%;
+}
+#waitInner {
+	padding:0 0 15px 0;
+	width:100%;
+	height:45px;
+}
+#waitContent {
+	color:#636363;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 15px;
+	text-align:center;
+}
+/* Learning Center */
+
+.articleHeader {
+	color: #fdb813;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+}
+#centeringWrap {
+	width: 957px;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 1px solid #000;
+}
+#lcBodyContent {
+	float: left;
+	width: 100%;
+}
+#lcHeader {
+	float: left;
+	width: 100%;
+	margin:0;
+	padding:0;
+}
+#lcHeader .logo {
+	float: left;
+	margin: 21px 0 0 0;
+}
+#lcFooter {
+	float: left;
+	height:150px;
+	background: #151414;
+	margin-top:32px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 2em;
+	z-index: 500;
+}
+#foot {
+	float: left;
+	margin-bottom: -150px;
+	padding-top: 53px;
+	width: 100%;
+	position: relative; /*Fix for some stupid IE6 bug */
+}
+#foot ul {
+	list-style: none;
+	margin: 0px 0 0 0;
+	padding: 0;
+}
+#foot li {
+	float: left;
+	line-height:1.4em;
+	margin: 0 .75em -.1em -.1em;
+	display: inline;
+	padding: 0 .6em 0 0;
+	white-space: nowrap;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #878787;
+	text-align: center;
+}
+#foot li a {
+	color:#999;
+	text-decoration: none;
+}
+#foot li a:visited {
+	color:#999;
+	text-decoration: none;
+}
+#foot li a:hover {
+	color: #fdbd24;
+	text-decoration: none;
+}
+#companyCopy {
+	float: right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #878787;
+}
+#disclaimer {
+	float: left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+	width: 420px;
+	padding: 14px 0 0 0;
+}
+#lcFooter ul {
+	list-style: none;
+	margin: 0px 0 0 0;
+	padding: 0;
+}
+#lcFooter li {
+	float: left;
+	line-height:1.4em;
+	margin: 0 .75em -.1em -.6em;
+	padding: 0 .5em 0 1em;
+	white-space: nowrap;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	color: #999;
+	text-align: center;
+}
+.clearFloat {
+	clear:both;
+}
+#lcHeader .hright {
+	float: right;
+	height: 103px;
+	margin: 0 35px 0 0;
+	width: 350px;
+	padding:0;
+}
+/* HEADER UTILITY NAVIGATION */
+
+.utilitywrap {
+	float: right;
+	margin-top: 17px;
+}
+.utilitylist {
+	margin: 0 0 0 0px;
+	overflow: hidden;
+}
+.utilitylist li a {
+	text-decoration: none;
+	color: #999;
+}
+.utilitylist li a:visited {
+	text-decoration: none;
+	color: #999;
+}
+.utilitylist li a:hover {
+	text-decoration: underline;
+	color: #999;
+}
+.utilitylist ul {
+	list-style: none;
+	margin: 0px 0 0 0;
+	padding: 0;
+}
+.utilitylist li {
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/lcUtilityBullet.gif) 0px 7px no-repeat;
+	float: left;
+	line-height:1.4em;
+	margin: 0 .75em -.1em -.6em;
+	padding: 0 .5em 0 1em;
+	white-space: nowrap;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999;
+	text-align: center;
+}
+#lcSearch {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_lcsearch.gif) no-repeat;
+	width:280px;
+	height:56px;
+	float:right;
+	margin: 8px 0px 0 0;
+	padding: 0 13px 0 0;
+}
+#lcSearch .field {
+	float: left;
+	margin: 15px 0 0 20px;
+	display: inline; /* Bug Fix for IE6 */
+}
+#lcSearch .SearchBtn {
+	float: left;
+	margin: 16px 0 0 6px;
+}
+#lcContentArea {
+	float: left;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_lcContent.png) no-repeat;
+	width:1011px;
+	height:313px;
+	margin:0;
+	padding:0;
+}
+#lcContentAreaAlt {
+	float: left;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_lcContentAlt.png) no-repeat;
+	width:673px;
+	height:313px;
+}
+#lcContentArea .content {
+	float: left;
+	color: #2c53ad;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:16px;
+	font-weight: normal;
+	line-height:1.438em;
+	margin: -2px 324px 34px 0;
+	height: 67px;
+}
+#lcContentArea .content a:hover {
+	color: #000;
+}
+#lcContentAreaAlt .content {
+	float: left;
+	color: #2c53ad;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:16px;
+	font-weight: normal;
+	line-height:1.438em;
+	margin: 70px 324px 34px 0;
+	height: 67px;
+}
+#lcHeaderNav {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_lcHeaderNav.png) no-repeat;
+	width: 747px;
+	height:53px;
+	float: left;
+	margin:0 0 0 -5px;
+}
+/* HEADER UTILITY NAVIGATION */
+
+.lcNavWrap {
+	float: left;
+	margin-top: 17px;
+}
+.lcNavList {
+	margin: 0 0 0 0px;
+	overflow: hidden;
+}
+.lcNavList a, .lcNavList a:visited {
+	cursor: pointer;
+	text-decoration: none;
+	color: #999;
+}
+.lcNavList a:hover {
+	text-decoration:none;
+}
+.lcNavList ul {
+	list-style: none;
+	margin: 0px 0 0 18px;
+	padding: 0;
+}
+.utilhref a:hover {
+	text-decoration: underline;
+	outline: none;
+}
+.lcNavList li {
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/btn_lcArrowDown.png) right 0px no-repeat;
+	float: left;
+	line-height:1.65em;
+	margin: 0 .75em -.1em -.6em;
+	padding: 0 2em 0 1em;
+	white-space: nowrap;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999;
+	font-weight: bold;
+	text-align: center;
+}
+.lcNavList li.alt {
+	background: none;
+	color: #fdb813;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 0.688em;
+	font-size: 12px;
+	font-weight:bold;
+	margin: 0 -1.125em -.1em -.6em;
+}
+.lcTagBody {
+	float: left;
+	width:741px;
+	margin:-80px 0 0 -2px;
+	padding: 0 0 6px 0;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/lcRoundBtmLg.gif) no-repeat left bottom;
+}
+.lcTagBody h2 {
+	background: #fff url(/web/20110810055821im_/http://www.myzeo.com//interface/lcRoundTopLg.png) no-repeat left top;
+	padding: 6px 26px 0 26px;
+	margin:0;
+}
+.lcTagBody .tbContent {
+	margin: 0;
+	width:100%;
+	background:#fff;
+	float: left;
+}
+.lcTagBody .tbContent a:hover {
+	color: #000;
+}
+.lcTagBody .tbContent a:visited {
+	color: #579ed2;
+}
+.lcTagBodyAlt {
+	float: left;
+	width:741px;
+	margin:-235px 0 0 -2px;
+	padding: 0 0 6px 0;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/lcRoundBtmLg.gif) no-repeat left bottom;
+}
+.lcTagBodyAlt h2 {
+	background: #fff url(/web/20110810055821im_/http://www.myzeo.com//interface/lcRoundTopLgAlt.png) no-repeat left top;
+	padding: 6px 26px 0 26px;
+	margin:0;
+}
+.lcTagBodyAlt .tbContent {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+	line-height: 1.625em;
+	margin: 0;
+	width:689px;
+	background:#fff;
+	float: left;
+	padding: 5px 26px 24px 26px;
+}
+.lcTagBodyAlt .tbContent a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.lcTagBodyAlt .tbContent a:visited {
+	color: #579ed2;
+}
+.lcTagBodyAlt .tbContent p {
+	line-height: 1.625em;
+}
+.lcTagBodyEnd {
+	float: left;
+	width:741px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/lcRoundBtmLg.gif) no-repeat left bottom;
+	height:6px;
+	font-size:0;
+	margin:0 0 0 -2px;
+}
+.lcTagColumn {
+	float: right;
+	width:207px;
+	padding: 0 0 7px 0;
+	margin:-80px 0 0 0;
+	background:  url(/web/20110810055821im_/http://www.myzeo.com//interface/lcRoundBtmSm.gif) no-repeat left bottom;
+}
+.lcTagColumnAlt {
+	float: right;
+	width:207px;
+	padding: 0 0 7px 0;
+	margin:-235px 0 0 0;
+	background:  url(/web/20110810055821im_/http://www.myzeo.com//interface/lcRoundBtmSm.gif) no-repeat left bottom;
+}
+.lcTagColumn h2 {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/lcRoundTopSm.png) no-repeat left top;
+	padding: 6px 26px 0 26px;
+	margin:0;
+}
+.lcTagColumnAlt h2 {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/lcRoundTopSmAlt.png) no-repeat left top;
+	padding: 6px 26px 0 26px;
+	margin:0;
+}
+.lcTagColumn .tcContent {
+	width:100%;
+	margin: 0;
+	background:#fff;
+	float: left;
+}
+.lcTagColumnAlt .tcContent {
+	width:100%;
+	margin: 0;
+	background:#fff;
+	float: left;
+}
+.lcTagColEnd {
+	float: right;
+	width:207px;
+	height:7px;
+	font-size:0;
+	margin:0 0 0 0;
+}
+ul.lcArticles {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+ul.lcArticles li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:0;
+	line-height: 1.375em;
+	font-size: 12px;
+	color: #666666;
+	margin:0;
+	padding:0 0 5px 0;
+}
+ul.lcArticles li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:0;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+ul.lcArticles li a:visited {
+	color: #579ed2;
+	text-decoration: none;
+}
+ul.lcArticles li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+ul.lcArticles li.tagName {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 17px;
+	color: #333333;
+	margin:0;
+	padding:0 0 5px 0;
+}
+ul.lcArticles li.tagName a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color: #333333;
+	font-size: 17px;
+}
+#emailArticle {
+	float: left;
+	width: 100%;
+	text-align:right;
+}
+td.lcCategory {
+	padding-top:13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #fdb813;
+}
+.global_index_hdr {
+	float: left;
+	width: 164px;
+	padding: 0;
+	margin-top: 0;
+}
+.global_index_hdr h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #fdb813;
+	margin: 0;
+	padding:11px 0 0 0;
+}
+ul.gi {
+	list-style: none;
+	margin: 7px 0 9px 0;
+	padding: 0;
+}
+li.gi_list {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 14px;
+	color: #666;
+	padding: 3px 0 3px 0;
+	margin:0;
+	list-style:none;
+}
+li.gi_list a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 14px;
+	color: #666;
+	text-decoration: none;
+}
+li.gi_list a:visited {
+	color:#579ed2;
+}
+li.gi_list a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+.global_index_content {
+	float: left;
+	width: 100%;
+	padding: 0 0 14px 0;
+}
+.global_index_content ul {
+	float: left;
+	padding: 0;
+	margin:0;
+}
+#inner_right_column {
+	float: left;
+	width: 164px;
+	margin: 0 0 0 22px;
+	display: inline; /* Bug Fix for IE6 */
+}
+h1.articleTitle {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	margin:-9px 0 0 0;
+	padding:0;
+	font-weight: normal;
+	float: left;
+	line-height: 28px;
+}
+#relatedArticles {
+	float: left;
+	width: 100%;
+	border-top: solid 4px #e4f1fd;
+	margin-top: 22px;
+}
+#relatedArticles .title {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 16px;
+	padding: 9px 0 3px 0;
+}
+#relatedArticles ul {
+	float: left;
+	width: 100%;
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+#relatedArticles li {
+	float: left;
+	width: 100%;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 14px;
+	line-height: 1.875em;
+	font-weight: normal;
+}
+#relatedArticles li a {
+	color:#666;
+	text-decoration: none;
+}
+#relatedArticles li a:visited {
+	color:#579ed2;
+	text-decoration: none;
+}
+#relatedArticles li a:hover {
+	color:#000;
+	text-decoration: underline;
+}
+#references {
+	float: left;
+	width: 100%;
+	border-top: solid 4px #e4f1fd;
+	margin-top: 22px;
+}
+#references .title {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 16px;
+	padding: 9px 0 3px 0;
+}
+#references ul {
+	float: left;
+	width: 100%;
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+#references li {
+	float: left;
+	width: 100%;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 14px;
+	line-height: 1.875em;
+	list-style: none;
+	font-weight: normal;
+}
+#references li a {
+	color: #666;
+	text-decoration: none;
+}
+#references li a:visited {
+	color:#579ed2;
+	text-decoration: none;
+}
+#references li a:hover {
+	color:#000;
+	text-decoration: underline;
+}
+#references li a.nolink:hover {
+	color:#666;
+	text-decoration: none;
+	cursor: text;
+}
+#subtitle {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 11px;
+	float: left;
+}
+a.subtitleLink {
+	color: #666;
+	text-decoration: none;
+}
+a.subtitleLink:hover {
+	color: #999;
+	text-decoration: underline;
+}
+a.subtitleLink:visited {
+	color:#579ed2;
+	text-decoration: none;
+}
+#sleepInfoTitle {
+	float: left;
+	font-size:0;
+	position:relative;
+	z-index:500;
+	visibility: visible;
+	top: 0;
+	left: 0;
+	margin-top:28px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/sleepinformationcenter.png) no-repeat;
+	width: 382px;
+	height:39px;
+}
+#sleepInfoTitle2 {
+	float: left;
+	font-size:0;
+	position:relative;
+	z-index:500;
+	visibility: visible;
+	top: 0;
+	left: 0;
+	margin-top:28px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/sleepinformationcenter2.png) no-repeat;
+	width: 409px;
+	height:38px;
+	cursor: pointer;
+}
+a.top {
+	color: #666;
+	text-decoration: none;
+}
+a.top:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.zeoouter {
+	margin:0 20px 0 20px;
+}
+.prodBodyIndex {
+	float: left;
+	width:275px;
+	margin:24px 0 0 24px;
+	display: inline;
+}
+.prodBodyIndex2 {
+	float: right;
+	width:279px;
+	margin:24px 14px 0 0;
+}
+td.prodIndexImageLeft IMG {
+	padding-right:11px;
+}
+td.prodIndexImageLeft {
+	line-height:19px;
+}
+td.prodIndexImageRight {
+	line-height:19px;
+}
+td.prodIndexImageRight IMG {
+	padding-left:11px;
+}
+td.blueIndexTitle {
+	color:#2f68ba;
+	font-weight:bold;
+	font-size:16px;
+	padding-bottom: 14px;
+}
+td.yellowIndexTitle {
+	color:#2f68ba;
+	font-weight:bold;
+	font-size:16px;
+	padding-bottom: 14px;
+}
+td.indexHeadline {
+	font-weight:bold;
+	color: #000;
+	padding-bottom:8px;
+}
+#productLeftLower {
+	float: left;
+	width:613px;
+}
+.prodBodyBottom {
+	float:left;
+	border-top: solid 1px #cbcbcb;
+	width:509px;
+	margin-left:23px;
+	height:40px;
+	padding-left:67px;
+	padding-top:11px;
+	display:inline;
+}
+.pcMac {
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/pc_mac.gif) no-repeat 0 7px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+}
+#detailvideoContainer {
+	float: left;
+	width: 613px;
+	height:150px;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/details_video_container.gif) no-repeat;
+}
+#productRightLower {
+	float:right;
+	width: 328px;
+	margin-right:4px;
+}
+#productRightLower .outerIndexContainer {
+	float: left;
+	width: 328px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_yellowgrad_btm.gif) no-repeat bottom;
+}
+#productRightLower .innerIndexContainer {
+	float: left;
+	width: 328px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_yellowgrad_top.gif) no-repeat top;
+}
+td.rightIndexTitle {
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 0 13px 0;
+}
+td.rightIndexDesc {
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding:0 0 7px 0;
+}
+ul.rightIndexUL {
+	padding: 0;
+	list-style: none;
+	margin:0 0 0 6px;
+}
+ul.rightIndexUL li {
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/highlight_arrowhead.gif) no-repeat 0 5px;
+	padding: 0 0 0 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size:12px;
+	font-weight: normal;
+	line-height: 19px;
+}
+#detailContent {
+	float: left;
+	width: 328px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_detailcontent_btm.gif) no-repeat bottom;
+	margin-top: 13px;
+}
+#detailContent .innerDetailContent {
+	float: left;
+	width: 328px;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_detailcontent_top.gif) no-repeat top;
+}
+.videoDetails {
+	float: left;
+	margin: 0 0 0 9px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #999999;
+	width:80px;
+}
+.videoDetails ul {
+	float: left;
+	list-style: none;
+	margin:0;
+	padding: 0;
+	width:100%;
+}
+.videoDetails li {
+	margin:0;
+	padding: 0;
+}
+#dvc_inner {
+	float: left;
+	padding:0 20px 0px 20px;
+}
+#dvc_title {
+	float: left;
+	padding: 5px 0 5px 0;
+	width: 573px;
+	font-weight: bold;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.tagline {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	font-style:italic;
+	font-size:12px;
+}
+.csnumber {
+	float: left;
+	padding:3px 8px 3px 0;
+	border-right: solid 1px #d6d6d6;
+}
+.chat {
+	float: left;
+	padding:3px 0px 3px 7px;
+}
+.800 {
+	position: relative;
+	height: 18px;
+	font-size: 0px;
+	margin-bottom: -15px;
+	text-align: right;
+	width: 100%;
+	z-index: 500;
+	float: right;
+}
+.videoOverlay {
+	position: relative;
+	float: right;
+	z-index:25;
+	visibility: visible;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_videooverlay-trans.png) no-repeat top;
+	height:79px;
+	width:279px;
+	margin:-85px 0 0 0;
+}
+.videoOverlayContent {
+	position: relative;
+	float: right;
+	z-index:30;
+	visibility: visible;
+	height:79px;
+	width:279px;
+	margin:-85px 0 0 0;
+}
+.overlayPreview {
+	float: left;
+	margin:13px 0 0 15px;
+	cursor: pointer;
+	height:53px;
+	width:79px;
+	display:inline;
+}
+.overlayText {
+	float:right;
+	height:53px;
+	width:155px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-style:normal;
+	font-size:11px;
+	margin:13px 15px 0 0;
+	overflow:none;
+	text-align:left;
+	display: inline;
+}
+#otlink {
+	cursor: pointer;
+}
+.overlayLink {
+	float: left;
+	padding: 3px 0 0 0;
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.overlayLink a, .overlayLink a:visited, .overlayLink a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	text-decoration:none;
+	color: #fff;
+	margin:0;
+	padding:0;
+}
+/* Landing Page Two */
+.contentLandingTwo {
+	width: 100%;
+	padding:34px 0 15px 0;
+	float: left;
+}
+.landingTwoUpper {
+	float: left;
+	width: 957px;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/details_border_btm.gif) no-repeat left bottom;
+	padding-bottom:13px;
+}
+.landingTwoUpper .top {
+	width: 100%;
+	padding:11px 0 0 0;
+	float: left;
+	font-size:0;
+	margin:0;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/details_border_top.gif) no-repeat top;
+}
+.landingTwoUpper .inner {
+	width: 925px;
+	float: left;
+	padding: 25px 25px 0 32px;
+	margin:0;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/details_border_mid.gif) repeat-y;
+}
+.logoLandingTwo {
+	float: right;
+	margin-top:-3px;
+	padding-right:23px;
+}
+.headlineLandingTwo {
+	float:left;
+	width:810px;
+	padding-bottom:19px;
+}
+.landingTwoUpper .leftCol {
+	float:left;
+	width: 270px;
+}
+.leftColImage {
+	float:left;
+	width:270px;
+}
+.leftColVideos {
+	float:left;
+	background: url(/web/20110810055821im_/http://www.myzeo.com//interface/text_videos.gif) top left no-repeat;
+	width: 270px;
+	padding-top:36px;
+}
+.leftColVideoContainer {
+	float:left;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/bg_landingTwoVideo.gif) no-repeat;
+	width:269px;
+	height:89px;
+	margin-bottom:14px;
+}
+.videoPreview_Image {
+	float:left;
+	width:100px;
+	margin: 11px 9px 0 15px;
+	position:relative;
+	display:inline;
+}
+.videoPreview_Text {
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #5b90e2;
+	font-weight:bold;
+	margin:12% 0 12% 0;
+	width:135px;
+}
+.leftColTestimonials {
+	float: left;
+	width:270px;
+	margin-top:19px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:14px;
+	font-style:italic;
+	line-height:20px;
+}
+.rightColContent {
+	float: left;
+	width:598px;
+	margin-left:25px;
+}
+.contentareaLandingTwo {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	float:left;
+	padding:0;
+	margin:0;
+	line-height:21px;
+	font-size:12px;
+}
+.contentareaLandingTwo p {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	line-height:21px;
+	font-size:12px;
+}
+.playButtonLg {
+	z-index:115;
+	position:absolute;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/play_lg-trans.png) no-repeat;
+	width:100px;
+	height:67px;
+	cursor:pointer;
+}
+.buyNowContainer {
+	float:left;
+	background:#ffffe5;
+	width:585px;
+	border-bottom:#e6e6e6 solid 1px;
+	border-top:#e6e6e6 solid 1px;
+	padding: 16px 0 16px 17px;
+	margin-top:16px;
+}
+.buyNowOption {
+	float:left;
+	width:120px;
+}
+.buyNowHighlights {
+	float:left;
+	width:425px;
+	border-left:solid 1px #e6e6e6;
+	margin-left:14px;
+}
+.buyNowHighlights ul {
+	padding:0 0 0 16px;
+	margin:0;
+	list-style:none;
+}
+.buyNowHighlights li {
+	color:#ff3300;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/redbullet.gif) left 6px no-repeat;
+	padding-left: 14px;
+	line-height:22px;
+}
+.subscribeHeading {
+	margin: 17px 0 0 12px;
+	padding:0;
+	font-weight: bold;
+	float: left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #666666;
+}
+a.noclass, a.noclass:visited, a.noclass:hover {
+	text-decoration:underline;
+	color:#666;
+}
+.indexPadding {
+	float:left;
+	margin-left:28px;
+}
+.productHighlight {
+	float: left;
+	width:369px;
+	height:71px;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/producthighlightbg.gif) no-repeat;
+	margin:13px 13px 0 0;
+	padding:20px;
+}
+.productHighlight .image {
+	float:left;
+	width:127px;
+	height:71px;
+	margin-right:20px;
+	display:inline;
+}
+.productHighlight .desc {
+	float:left;
+	width:218px;
+	height:71px;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	line-height:17px;
+}
+.productHighlight .desc dt {
+	font-weight: bold;
+	font-size:15px;
+	color: #666666;
+}
+.productHighlight .desc dd {
+	font-weight: normal;
+	font-size:11px;
+	color: #999;
+}
+.productHighlight .desc dd.link {
+	font-weight: normal;
+	font-size:11px;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/bullet_blue.gif) no-repeat 47px 5px;
+}
+.productHighlight .desc dd.link a {
+	font-weight: normal;
+	font-size:11px;
+	color: #578de7;
+}
+ul.backorder {
+	list-style:none;
+	margin:0;
+	padding:5px 0 0 0;
+}
+ul.backorder li {
+	line-height:14px;
+	font-weight:bold;
+}
+.iconBar {
+	float:left;
+	width:960px;
+	height:88px;
+	background:url(/web/20110810055821im_/http://www.myzeo.com//interface/footerBar.png) no-repeat;
+	position:relative;
+	margin:0 0 33px 0;
+}
+.iconBar ul {
+	list-style:none;
+	margin:24px 0 0 200px;
+	padding:0;
+	width:388px;
+	float:left;
+	display:inline;
+}
+
+.iconBar ul a, iconBar ul a:visited, iconBar ul a:hover 	{
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+}
+
+a .block {
+	text-decoration:none;
+}
+.iconBar li {
+	float:left;
+	display:inline;
+	height:43px;
+	width:77px;
+	cursor:pointer;
+	margin:0 20px 0 0;
+	padding:0;
+}
+.iconBar li .tip  {
+	width:112px;
+	height:50px;
+	z-index:500;
+	position:absolute;
+	margin:-80px 0 0 -35px;
+	padding:0 16px 35px 16px;
+	font-style:normal;
+	float:left;
+	display:none;
+	overflow:hidden;
+	text-align:left;
+	text-decoration:none;
+}
+
+.overlabel {
+	position:relative;
+}
+.overlabel label.pl {
+	position:absolute;
+	text-transform:none;
+	cursor:text;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	margin:7px 0 0 5px;
+}
+
+/*
+     FILE ARCHIVED ON 05:58:21 Aug 10, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:08:07 Mar 31, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

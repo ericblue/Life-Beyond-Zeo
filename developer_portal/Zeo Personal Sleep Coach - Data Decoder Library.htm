@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0100)https://web-beta.archive.org/web/20111211194621/http://developers.myzeo.com:80/data-decoder-library/ -->
+<html><script type="text/javascript">Object.defineProperty(window.navigator, 'userAgent', { get: function(){ return 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36'; } });Object.defineProperty(window.navigator, 'vendor', { get: function(){ return ''; } });Object.defineProperty(window.navigator, 'platform', { get: function(){ return 'MacIntel'; } });</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/wbhack.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+__wbhack.init('');
+</script>
+<link rel="stylesheet" type="text/css" href="./Zeo Personal Sleep Coach - Data Decoder Library_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./Zeo Personal Sleep Coach - Data Decoder Library_files/iconochive.css">
+
+<!-- End Wayback Rewrite JS Include -->
+	<title>Zeo Personal Sleep Coach - Data Decoder Library</title>
+	<meta name="description" content="Zeo is a new kind of educational tool and motivational program that helps you understand how you are sleeping, reveals habits and behaviors that may be helping or hindering your sleep, and teaches new ways that may help you get a better night&#39;s rest. Zeo is a three-part personal sleep coach product, combined with a highly personalized sleep coaching program.">	
+	<meta name="keywords" content="Zeo, myZeo, Zeo Personal Sleep Coach, Zeo Inc, softwave, headband, Sleep Graph, ZQ, 7 step sleep fitness, sleep fitness, sleep, sleep help, sleep coach, sleep journal, phases of sleep, REM sleep, deep sleep, axon labs, smart alarm clock, sleep smart">
+	<meta name="author" content="Zeo, Inc.">
+	<meta name="publisher" content="Zeo, Inc.">
+	<meta name="copyright" content="2010">
+	<meta name="pagetopic" content="Zeo Personal Sleep Coach">
+	<meta name="robots" content="INDEX, FOLLOW">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+	<!--<base href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/">--><base href="."> 
+	<script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/mbox.js"></script>
+<script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/jquery-1.3.2.min.js"></script><script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/jquery.swfobject.min.js"></script><script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/jquery.simplemodal.js"></script><script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/jquery.validate.min.js"></script><script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/app_javascript.js"></script><script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/zeoFunctions.js"></script><script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/videoFunction.js"></script><script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/s_code.js"></script><link type="text/css" href="./Zeo Personal Sleep Coach - Data Decoder Library_files/basic.css" rel="stylesheet" media="screen"><link rel="STYLESHEET" type="text/css" href="./Zeo Personal Sleep Coach - Data Decoder Library_files/app_stylesheet.css"><link rel="shortcut icon" type="image/ico" href="https://web-beta.archive.org/web/20111211194621im_/http://www.myzeo.com/favicon.ico"><link rel="stylesheet" type="text/css" href="./Zeo Personal Sleep Coach - Data Decoder Library_files/basic.css" media="screen"><link rel="stylesheet" type="text/css" href="./Zeo Personal Sleep Coach - Data Decoder Library_files/app_stylesheet(1).css"><link rel="stylesheet" type="text/css" href="./Zeo Personal Sleep Coach - Data Decoder Library_files/main.css"><link rel="stylesheet" type="text/css" href="./Zeo Personal Sleep Coach - Data Decoder Library_files/pr_addendum.css"><script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/label2value.js"></script><script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/swfobject.js"></script><script type="text/javascript">
+		$(document).ready(function(){
+			$('a.videoWin').click(playVideo); // use this code to set up videos
+			$('.overlayPreview#quicktourswf').click(playSWF); // use this code to set up Zeo Quick Tour SWF
+			// fire event2 for Omniture on successful submit of email signup form
+			$("#Subscribe").validate({
+				submitHandler: function(form) {
+					// Omniture tracking
+					var s=s_gi(s_account);
+					s.linkTrackVars="eVar1,events";
+					s.linkTrackEvents="event2";
+					s.events="event2";
+					s.eVar1 = 'e-mail sign up'
+					s.tl(true,'o', 'e-mail sign up');					
+					// Submit form
+					form.submit();
+				}
+			});
+		});
+		function playVideo() {
+			var videoID = '#' + this.id + ' span';
+			var fileLocation = 'file=' + $(videoID).html() + '&autostart=true' + '&skin=https://web-beta.archive.org/web/20111211194621/http://myzeo.com/flvplayer/modieus.swf';
+			//e.preventDefault();
+			var s1 = new SWFObject('https://web-beta.archive.org/web/20111211194621/http://myzeo.com/flvplayer/player.swf','ply','640','392','9','#FFFFFF');
+			s1.addParam('allowfullscreen','true');
+			s1.addParam('allownetworking','all');
+			s1.addParam('allowscriptaccess','always');
+			s1.addParam('flashvars',fileLocation);
+			s1.write('tutorial');
+			$('#videoModalContent').modal();
+		}
+		function playSWF() { // added to make the Quick Tour .swf play in the modal;
+			var s1 = new SWFObject('https://web-beta.archive.org/web/20111211194621/http://myzeo.com/zeo-static/swf/zeo_howItWorks.swf','ply','720','470','9','#000000');
+			s1.addParam('allownetworking','all');
+			s1.addParam('allowscriptaccess','always');
+			s1.write('tutorial');
+			$('#videoModalContent').modal();
+		}
+		$(function(){ // open links with class "new-window" in a new window (requires jQuery)
+		    $('a.new-window').click(function(){
+		        window.open(this.href);
+		        return false;
+		    });
+		});
+	</script><style type="text/css">
+		label.error {position:absolute; left:0px; top:52px; color:#f00;}
+	</style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+
+
+	
+    <style type="text/css">embed[type*="application/x-shockwave-flash"],embed[src*=".swf"],object[type*="application/x-shockwave-flash"],object[codetype*="application/x-shockwave-flash"],object[src*=".swf"],object[codebase*="swflash.cab"],object[classid*="D27CDB6E-AE6D-11cf-96B8-444553540000"],object[classid*="d27cdb6e-ae6d-11cf-96b8-444553540000"],object[classid*="D27CDB6E-AE6D-11cf-96B8-444553540000"]{	display: none !important;}</style>
+
+    
+    
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+
+
+    
+
+    
+
+<!-- 
+================================================ 
+ADDED 3/30/10 -->
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+
+<!--
+================================================ -->
+
+<body style="background: url(&quot;/web/20111211194621im_/http://www.myzeo.com/interface/fffbg.png&quot;) center top repeat-x rgb(21, 20, 20); margin: 0px; padding: 0px;"><div id="data"></div><div id="wm-ipp" lang="en" style="display: block; direction: ltr;">
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+  <table style="width:100%;">
+    <tbody>
+      <tr>
+	<td id="wm-logo">
+	  <a href="https://web-beta.archive.org/web/" title="Wayback Machine home page"><img src="./Zeo Personal Sleep Coach - Data Decoder Library_files/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0"></a>
+	</td>
+	<td class="c">
+	  <table style="margin:0 auto;">
+	    <tbody>
+	      <tr>
+		<td class="u" colspan="2">
+		  <form target="_top" method="get" action="https://web-beta.archive.org/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://developers.myzeo.com:80/data-decoder-library/" style="width:400px;" onfocus="this.focus();this.select();" autocomplete="off"><input type="hidden" name="type" value="replay"><input type="hidden" name="date" value="20111211194621"><input type="submit" value="Go"></form>
+		</td>
+		<td class="n" rowspan="2">
+		  <table>
+		    <tbody>
+		      <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		      <tr class="m">
+			<td class="b" nowrap="nowrap"><a href="https://web-beta.archive.org/web/20111110135846/http://developers.myzeo.com:80/data-decoder-library" title="10 Nov 2011"><strong>Nov</strong></a></td>
+			<td class="c" id="displayMonthEl" title="You are here: 19:46:21 Dec 11, 2011">DEC</td>
+			<td class="f" nowrap="nowrap"><a href="https://web-beta.archive.org/web/20120427185130/http://developers.myzeo.com:80/data-decoder-library" title="27 Apr 2012"><strong>Apr</strong></a></td>
+		      </tr>
+		      <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		      <tr class="d">
+			<td class="b" nowrap="nowrap"><a href="https://web-beta.archive.org/web/20111123163521/http://developers.myzeo.com/data-decoder-library/" title="16:35:21 Nov 23, 2011"><img src="./Zeo Personal Sleep Coach - Data Decoder Library_files/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0"></a></td>
+			<td class="c" id="displayDayEl" style="width:34px;font-size:24px;" title="You are here: 19:46:21 Dec 11, 2011">11</td>
+			<td class="f" nowrap="nowrap"><a href="https://web-beta.archive.org/web/20120427185130/http://developers.myzeo.com:80/data-decoder-library" title="18:51:30 Apr 27, 2012"><img src="./Zeo Personal Sleep Coach - Data Decoder Library_files/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0"></a></td>
+		      </tr>
+		      <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		      <tr class="y">
+			<td class="b" nowrap="nowrap"><a href="https://web-beta.archive.org/web/20101102043959/http://developers.myzeo.com:80/data-decoder-library/" title="02 Nov 2010"><strong>2010</strong></a></td>
+			<td class="c" id="displayYearEl" title="You are here: 19:46:21 Dec 11, 2011">2011</td>
+			<td class="f" nowrap="nowrap"><a href="https://web-beta.archive.org/web/20130515044955/http://developers.myzeo.com/data-decoder-library/" title="15 May 2013"><strong>2013</strong></a></td>
+		      </tr>
+		    </tbody>
+		  </table>
+		</td>
+	      </tr>
+	      <tr>
+		<td class="s">
+		  		  <div id="wm-nav-captures"><a class="t" href="https://web-beta.archive.org/web/*/http://developers.myzeo.com:80/data-decoder-library/" title="See a list of every capture for this URL">23 captures</a><div class="r" title="Timespan for captures of this URL">15 Aug 2010 - 2 Sep 2016</div></div>
+		</td>
+		<td class="k">
+		  <a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/" id="wm-graph-anchor">
+		    <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		      <canvas id="wm-sparkline-canvas" width="550" height="27" border="0"></canvas>
+		    <div class="yt" style="display: none; width: 25px; height: 27px;"></div><div class="mt" style="display: none; width: 2px; height: 27px;"></div></div>
+		  </a>
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	</td>
+	<td class="r">
+	  <a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/#" onclick="window.open(&#39;https://www.facebook.com/sharer/sharer.php?u=https://web-beta.archive.org/web/20111211194621/http://developers.myzeo.com:80/data-decoder-library/&#39;, &#39;&#39;, &#39;height=400,width=600&#39;); return false;" title="Share on Facebook" style="top: 4px; right: 16px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	  <a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/#" onclick="window.open(&#39;https://twitter.com/intent/tweet?text=https://web-beta.archive.org/web/20111211194621/http://developers.myzeo.com:80/data-decoder-library/&amp;via=internetarchive&#39;, &#39;&#39;, &#39;height=400,width=600&#39;); return false;" title="Share on Twitter" style="bottom:14px;right:16px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+	  <a href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="bottom:14px;right:5px;padding-right:0;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	  <a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/#close" onclick="__wm.h(event);return false;" style="top:-2px;right:0;padding-right:0;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+	  <a id="wm-expand" class="wm-btn" href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/#expand" onclick="__wm.ex(event);return false;"><span class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+	</td>
+      </tr>
+    </tbody>
+  </table>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none;">
+            <div style="background-color:#353535;color:#aaa;font-weight:bold;text-align:center;"><a class="wm-selector selected" href="javascript:void(0)">COLLECTED BY</a></div>
+    <div style="padding:3px;position:relative;">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div></div></div></div></div><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/timestamp.js" charset="utf-8"></script>
+<script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/graph-calc.js" charset="utf-8"></script>
+<script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/auto-complete.js" charset="utf-8"></script>
+<script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/toolbar.js" charset="utf-8"></script>
+
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+.wb-autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.wb-autocomplete-suggestion b { font-weight: bold; }
+.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+</style>
+<script type="text/javascript">
+__wm.bt(550,27,25,2,"web","http://developers.myzeo.com:80/data-decoder-library/","2011-12-11",1996);
+</script><div class="wb-autocomplete-suggestions "></div>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<!--
+	<form action="index.cfm" method="post"  name="form">
+		
+		<input type="hidden" name="jsaction" value="">
+		<input type="hidden" name="formstack" value="">
+
+		<input type="hidden" name="form_changed" value="no">
+		<input type="hidden" name="pagemode" value="">
+		
+		<input type="hidden" name="projectID" value="108">
+		<input type="hidden" name="websiteID" value="1">
+		
+		<input type="hidden" name="tabbar" value="">
+
+	</form>
+-->
+
+<!-- IE 6 hacks -->
+
+<!--[if lt IE 7]>
+    <script src="../javascripts/IE7.js" type="text/javascript"></script> 
+    <script>
+    $(document).ready(function()	{
+        $('.videoLink').hover(function()	
+            {
+                $(this).addClass('hover');}, function()	{
+                    $(this).removeClass('hover');
+                });
+            });
+    </script>
+    
+<![endif]-->
+
+
+
+  <!-- image map coords for static flash images -->
+  <map name="flashalt">
+    <area shape="rect" coords="514,323,612,354" href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/pages/110_why_zeo_discover.cfm" title="Learn More" style="outline:none;">
+    <area shape="rect" coords="674,263,941,358" href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/product/1_zeo_personal_sleep_coach.cfm" title="Buy Now!" style="outline: none;">
+  </map>
+  <map name="flvflash">
+    <area shape="rect" coords="236,273,396,314" href="https://web-beta.archive.org/web/20111211194621/http://www.adobe.com/products/flashplayer/" title="Get Adobe Flash Player" style="outline: none;">
+  </map>
+
+  <div id="wrapper">
+
+<!-- 
+================================================ -->
+
+<div class="mbox-body b-pr">
+	<div id="header">
+		<h1><a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com">Zeo. The more you know, the better you sleep.™</a></h1>
+		<ul id="nav">
+			<li id="n-home"><a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com">Home</a></li>
+			<li id="n-whatiszeo"><a href="https://web-beta.archive.org/web/20111211194621/http://whatiszeo3.myzeo.com/hp/3/whatiszeo.php">What Is Zeo?</a></li>
+			<li id="n-testimonials"><a href="https://web-beta.archive.org/web/20111211194621/http://whatiszeo3.myzeo.com/hp/3/testimonials.php">What Users Are Saying</a></li>
+			<li id="n-myzeo"><a href="https://web-beta.archive.org/web/20111211194621/http://mysleep.myzeo.com/">myZeo</a></li>
+			<li id="n-support"><a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/pages/50_support.cfm">Support</a></li>
+			<li id="n-order"><a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/pages/297_zeo_products.cfm">Order Now</a></li>
+		</ul>
+	</div><!-- /header -->
+
+	<div id="container">
+	<div id="content">
+		<h2>Zeo Data Decoder Card Library</h2>
+		<p>
+			Zeo has released for developers a version of software and a library that enables a user to decode
+			Zeo sleep data without uploading data to <a href="https://web-beta.archive.org/web/20111211194621/http://mySleep.myZeo.com">mySleep.myZeo.com</a>.
+			Data is output in either human readable or XML format. Example source is also provided which allows developers to
+			create their own software to decode Zeo data. A special version of firmware (2.6.3O) is required to use this
+			library.  This library is an ALPHA release and is not supported by Zeo -- please use at your own risk.
+		</p>
+		<p>Example applications include:</p>
+		<ul>
+			<li>For data where privacy must be protected — no need to upload data to Zeo to get access to historical sleep data.</li>
+			<li>For offline use — this software and library could be used to create a desktop application that requires no internet access to access historical sleep data.</li>
+			<li>For direct integration with software/websites that seek to integrate sleep data without requiring a user to upload to Zeo.</li>
+			<li>A separate <a href="https://web-beta.archive.org/web/20111211194621/http://mysleep.myzeo.com/api/api.shtml">Web API</a> is also available for those seeking to access Zeo sleep data online</li>
+		</ul>
+		<p>For more information and to download this software, please fill out the form below:</p>
+		<script type="text/javascript">var host = (("https:" == document.location.protocol) ? "https://web-beta.archive.org/web/20111211194621/https://secure." : "http://");document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script><script src="./Zeo Personal Sleep Coach - Data Decoder Library_files/form.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			var q7x4a9 = new WufooForm();
+			q7x4a9.initialize({
+			'userName':'myzeo',
+			'formHash':'q7x4a9',
+			'autoResize':true,
+			'height':'564'});
+			q7x4a9.display();
+		</script>
+		<h4>Terms &amp; Conditions</h4>
+		<p>By downloading and using this software you agree to the following <a href="https://web-beta.archive.org/web/20111211194621/http://developers.myzeo.com/terms-and-conditions/">terms and conditions.</a></p>
+		<p>For questions please contact <a href="https://web-beta.archive.org/web/20111211194621/https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=DeveloperRelations@myzeo.com" target="_blank">DeveloperRelations@myzeo.com</a></p>
+		<h4>Forum</h4>
+		<p><a href="https://web-beta.archive.org/web/20111211194621/http://blog.myzeo.com/forum/zeo-sd-card-decoder-library/">Visit our forum</a> to read more or discuss the Data Decoder Library.</p>
+	</div><!-- /content -->
+
+	</div><!-- /container -->
+
+	<!-- <form></form> --><!-- for some reason the layout of the email signup form breaks unless this is here -->
+</div><!-- /mbox-body -->
+
+<!-- 
+================================================ -->
+
+ 	
+    <style>
+    .iconBar li .tip	
+    {
+    	background:url(/web/20111211194621im_/http://www.myzeo.com/interface/tooltip-trans.png) no-repeat;
+   	}
+    </style>
+
+<!--[if gte IE 7]>
+    <style>
+    .iconBar li .tip	
+    {
+    	background:url(../interface/tooltip-trans.png) no-repeat;
+   	}
+    </style>
+<![endif]-->
+<!--[if lt IE 7]>
+    <style>
+    .iconBar li .tip	
+    {
+    	background:url(../interface/tooltip-alt.gif) no-repeat;
+   	}
+    </style>
+<![endif]-->
+<div style="width:100%; background:#151414; float: left; padding:14px 0 20px 0; margin: 12px 0 0 0;">
+	<div style="position: relative; left: 50%; width: 960px; margin-left: -480px;">
+		<div class="iconBar">
+		<ul><a href="https://web-beta.archive.org/web/20111211194621/http://www.facebook.com/myZeo" target="_blank"><div class="block"><li style="background:url(/web/20111211194621im_/http://www.myzeo.com/images/full/1691.gif) no-repeat;"><div class="tip"><br>Become a fan of Zeo and join the conversation</div></li></div></a><a href="https://web-beta.archive.org/web/20111211194621/http://twitter.com/Zeo" target="_blank"><div class="block"><li style="background:url(/web/20111211194621im_/http://www.myzeo.com/images/full/1692.gif) no-repeat;"><div class="tip"><br>Join over 1,400 Zeo followers on Twitter</div></li></div></a><a href="https://web-beta.archive.org/web/20111211194621/http://blog.myzeo.com" target="_blank"><div class="block"><li style="background:url(/web/20111211194621im_/http://www.myzeo.com/images/full/1693.gif) no-repeat;"><div class="tip"><br>Read the latest blog posts from the Zeo Community</div></li></div></a><a href="https://web-beta.archive.org/web/20111211194621/http://myzeo.com/refer" target="_blank"><div class="block"><li style="background:url(/web/20111211194621im_/http://www.myzeo.com/images/full/1724.gif) no-repeat;"><div class="tip"><br>For every friend you refer who buys Zeo, you'll get $25!</div></li></div></a></ul>
+			<div style="margin:15px 0 0 0; float:right; padding:0 20px 0 0;"> 
+                  <form id="Subscribe" name="Subscribe" method="post" action="https://web-beta.archive.org/web/20111211194621/http://forms.myzeo.com/ats/go.aspx" style="padding:0; margin:0;" class="overlabel">
+					<input type="hidden" class="hidden-field" name="cr" value="222">
+					<input type="hidden" class="hidden-field" name="fm" value="22">
+					<input type="hidden" class="hidden-field" name="s_source" value="HP3">
+					<input type="hidden" class="hidden-field" name="cp" value="http://developers.myzeo.com/data-decoder-library?thankyou=yes#zeoFooter">
+                      <table cellpadding="0" cellspacing="0" border="0">
+                          <tbody><tr>
+                              <td colspan="2" style="color:#cccccc; font-family:Arial, Helvetica, sans-serif; font-size:13px; padding-bottom:4px;">Subscribe to our newsletter</td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <label class="pl" for="s_email" style="display: none;">Email address</label>
+                                  <input type="text" class="required email inactive" id="s_email" name="s_email" maxlength="58" style="font-family:Helvetica, Arial, sans-serif; font-size:12px; height:24px; background:#999999; width:217px; padding:3px 6px 2px; margin:-3px 6px 0 0; border: solid 1px #000000;">
+                              </td>
+                              <td>
+                              	<input type="image" name="submit" value="Sign up" id="signup-button" alt="Sign up" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/btn_sign_up.gif" width="95" height="32">
+                              </td>
+                          </tr>
+                      </tbody></table>
+                  </form>
+ 			</div>   
+ 		</div>
+        <div id="zeoFooter">
+        	<div class="copyright">© 2010 Zeo Inc., All Rights Reserved
+			  
+              	<br>© 2010 Dow Jones &amp; Company, Inc., All Rights Reserved
+              
+              <div class="mcafee">
+              	<ul>
+                    <li>
+					  <script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/saved_resource"></script><style>div.bbbo1912 {font-family: verdana, sans serif; font-size: 10px;} #bbbo1912lnk {display: none;}</style>
+                      <div class="bbbo1912">
+                      <script type="text/javascript">
+                      <!--
+                      LoadBBBOnlineSeal();
+                      //-->
+                      </script><table cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 4px;"><tbody><tr><td align="center"><a target="_BLANK" href="https://web-beta.archive.org/web/20110907031732/http://www.bbb.org/boston/business-reviews/educational-research/zeo-inc-in-newtonville-ma-118865/#bbbonlineclick"><img src="./Zeo Personal Sleep Coach - Data Decoder Library_files/BBBSealH2.gif" border="0"></a></td><td nowrap="">&nbsp;&nbsp;</td><td style="font-size: 11px; font-weight: bold; font-family: verdana, arial, sans serif; color: #006595;" valign="middle" align="center" nowrap="">A+ BBB Rating<br>as of 9/6/2011</td></tr><tr><td colspan="3" valign="middle" align="center" style="padding-top: 4px;" nowrap=""><a target="_BLANK" href="https://web-beta.archive.org/web/20110907031732/http://www.bbb.org/boston/business-reviews/educational-research/zeo-inc-in-newtonville-ma-118865/#bbbonlineclick" style="font-size: 10px; line-height: 1em; text-decoration: none; font-style: italic; font-family: verdana, arial, sans serif; color: #006595;">Click here for BBB Business Review</a></td></tr></tbody></table>
+                      <a target="_BLANK" id="bbbo1912lnk" href="https://web-beta.archive.org/web/20111211194621/http://www.bbb.org/boston/business-reviews/internet-shopping/zeo-inc-in-newtonville-ma-118865/#bbbonlineclick">Click here for BBB Business Review</a>
+                      </div>
+                    </li> 
+                	<li><a href="https://web-beta.archive.org/web/20111211194621/https://privacy-policy.truste.com/click-to-verify/www.myzeo.com" target="_blank"><img style="border: none" alt="Privacy-Policy-By-TRUSTe" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/h.png"></a></li>
+                	<li><a target="_blank" href="https://web-beta.archive.org/web/20111211194621/https://www.mcafeesecure.com/RatingVerify?ref=myzeo.com"><img width="94" height="54" border="0" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/13.gif" alt="McAfee Secure sites help keep you safe from identity theft, credit card fraud, spyware, spam, viruses and online scams" oncontextmenu="alert(&#39;Copying Prohibited by Law - McAfee Secure is a Trademark of McAfee, Inc.&#39;); return false;"></a></li>
+                  
+                </ul>
+              </div>
+            </div>
+            <ul>
+                <li> <a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/pages/335_become_an_affiliate.cfm">Become an Affiliate</a> </li>
+                <li> <a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/pages/54_contact_us.cfm">Contact Us</a> </li>
+                <li> <a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/pages/48_about_us.cfm">About Us</a> </li>
+                <li> <a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/pages/56_terms_conditions.cfm">Terms &amp; Conditions</a> </li>
+                <li> <a href="https://web-beta.archive.org/web/20111211194621/http://www.myzeo.com/pages/57_privacy_policy.cfm">Privacy Policy</a> </li>
+            </ul>
+            <div class="disclaimer">Zeo Personal Sleep Coach is neither a medical device nor a medical program and is not intended for the diagnosis or treatment of sleep disorders.  If you suspect that you may have a sleep disorder, consult your physician.</div>
+        </div>
+    </div>
+</div>
+<br clear="all">
+
+<div id="videoModalContent" style="display:none;">
+    <div id="tutorial">
+        <img src="./Zeo Personal Sleep Coach - Data Decoder Library_files/need-flash.jpg" width="640" height="361" usemap="#flvflash" border="0">
+    </div>
+</div>
+
+<!-- removed Google ad-related stuff -MJ 4/1/10-->
+
+<!-- Google Analytics -->
+	<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://web-beta.archive.org/web/20111211194621/https://ssl." : "https://web-beta.archive.org/web/20111211194621/http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script src="./Zeo Personal Sleep Coach - Data Decoder Library_files/ga.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-6491008-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+
+ 
+    <!-- Zeo Inc. Retargeting // REMOVED BY MJ 4/1/10 -->
+ 
+
+<!-- Omniture -->
+<!-- SiteCatalyst Code 
+Copyright 1997-2006 Omniture, Inc. 
+More info available at http://www.omniture.com -->
+
+<script language="javascript" type="text/javascript">
+s.pageName = "Home Page Test 3 - Data Decoder Library"
+s.state = ""
+s.zip = ""
+s.events = ""
+s.products = ""
+s.purchaseID = ""
+s.transactionID = ""
+s.channel = "home"
+s.eVar1 = ""
+s.eVar14 = ""
+s.eVar15 = ""
+s.eVar16 = ""
+s.eVar17 = ""
+s.eVar21 = ""
+s.eVar32 = ""
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+mboxLoadSCPlugin(s);
+var s_code=s.t();if(s_code)document.write(s_code)//-->
+</script>
+<!-- End SiteCatalyst Code -->
+
+<!-- BEGIN ProvideSupport.com Visitor Monitoring Code --> <div id="cir7iQ" style="z-index:100;position:absolute"></div><div id="sdr7iQ" style="display:none"><script type="text/javascript" src="./Zeo Personal Sleep Coach - Data Decoder Library_files/safe-monitor.js"></script></div><script type="text/javascript">var ser7iQ=document.createElement("script");ser7iQ.type="text/javascript";var ser7iQs=(location.protocol.indexOf("https")==0?"https":"http")+"://web-beta.archive.org/web/20111211194621/http://image.providesupport.com/js/axonlabs/safe-monitor.js?ps_h=r7iQ&ps_t="+new Date().getTime();setTimeout("ser7iQ.src=ser7iQs;document.getElementById('sdr7iQ').appendChild(ser7iQ)",1)</script><noscript>&lt;div style="display:inline"&gt;&lt;a href="https://web-beta.archive.org/web/20111211194621/http://www.providesupport.com?monitor=axonlabs"&gt;&lt;img src="https://web-beta.archive.org/web/20111211194621im_/http://image.providesupport.com/image/axonlabs.gif" border="0"&gt;&lt;/a&gt;&lt;/div&gt;</noscript> <!-- END ProvideSupport.com Visitor Monitoring Code -->
+
+  </div> <!--/wrapper-->
+  <br clear="all">
+
+
+ <span style="border-radius: 3px; text-indent: 20px; width: auto; padding: 0px 4px 0px 0px; text-align: center; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 11px; line-height: 20px; font-family: &quot;Helvetica Neue&quot;, Helvetica, sans-serif; color: rgb(255, 255, 255); background: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjYmQwODFjIj48L3BhdGg+PC9nPjwvc3ZnPg==&quot;) 3px 50% / 14px 14px no-repeat rgb(189, 8, 28); position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: none; -webkit-font-smoothing: antialiased;">Save</span><span style="border-radius: 3px; text-indent: 20px; width: 20px; height: 20px; background: url(&quot;data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHdpZHRoPSIzMHB4IiBoZWlnaHQ9IjMwcHgiIHZpZXdCb3g9IjAgMCAzMCAzMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KPGc+CjxwYXRoIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBkPSJNMTcsMTcgTDIyLDIyIFogIi8+CjxjaXJjbGUgc3Ryb2tlPSIjZmZmIiBjeD0iMTMiIGN5PSIxMyIgcj0iNiIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIzLjUiLz4KPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAsMCBMOCwwIEw4LDMgTDMsMyBMMyw4IEwwLDggWiIvPgo8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzAsMjIgTDMwLDMwIEwyMiwzMCBMMjIsMjcgTDI3LDI3IEwyNywyMiBaIi8+CjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0zMCwwIEwzMCw4IEwyNyw4IEwyNywzIEwyMiwzIEwyMiwwIFoiLz4KPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAsMjIgTDMsMjIgTDMsMjcgTDgsMjcgTDgsMzAgTDAsMzBaIi8+CjwvZz4KPC9zdmc+Cg==&quot;) 50% 50% / 14px 14px no-repeat rgba(0, 0, 0, 0.4); position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: none;"></span><span id="buffer-extension-hover-button" style="display: none; position: absolute; z-index: 8675309; width: 100px; height: 25px; background-image: url(&quot;chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@1x.png&quot;); background-size: 100px 25px; opacity: 0.9; cursor: pointer;"></span></body></html>

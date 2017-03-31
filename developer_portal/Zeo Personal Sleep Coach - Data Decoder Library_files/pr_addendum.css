@@ -1,0 +1,69 @@
+/* Home page news bar */
+	#news-bar {
+		clear:both;
+		text-align:center;
+		width:960px;
+		height:42px;
+		margin-top:14px !important;
+		padding-bottom:3px !important;
+		background: url(https://web-beta.archive.org/web/20120227140910im_/http://images.myzeo.com/2010/03/homepages/3/home-news-bg.png) no-repeat;
+	}
+			#news-bar a strong {
+				font-weight:bold !important;
+			}
+			#news-bar a {
+				display:block !important;
+				width:960px !important;
+				height:33px !important;
+				color:#1B428B !important;
+				padding-top:10px !important;
+				font-size:14px !important;
+				line-height:22px !important;
+			}
+
+/* Press Release detail page */
+	.b-pr #content span.reg { /* decreasing size of registered trademark symbol */
+		vertical-align: super;
+		font-size:60%;
+	}
+	.b-pr #content strong {
+		font-weight:bold;
+	}
+	.b-pr #content {
+		padding:0px 260px 60px 75px;
+	}
+	.b-pr #content h2 {
+		font-size:28px;
+		line-height:34px;
+		margin:20px 0 12px 0;
+	}
+	.b-pr #content h3 {
+		font-size:18px;
+		line-height:24px;
+		color:#666;
+		margin:0 0 12px 0;
+	}
+	.b-pr #content h4 {
+		margin:20px 0 0 0;
+	}
+	.b-pr #content p {
+		margin: 0 0 12px 0;
+	}
+	.b-pr #content ul {
+		font-size:14px;
+		list-style-type:disc;
+		padding-left:28px;
+		margin: 0 0 12px 0;
+	}
+	.b-pr #content ul li {
+		color:#777;
+		margin-bottom:8px;
+	}
+/*
+     FILE ARCHIVED ON 14:09:10 Feb 27, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:08:07 Mar 31, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

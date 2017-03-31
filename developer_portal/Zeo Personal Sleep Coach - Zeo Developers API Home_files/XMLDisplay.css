@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+.Utility {
+		color: black;
+}	
+.NodeName {
+	font-weight:bold;
+	color: #800080;	
+}
+.AttributeName 
+{
+	font-weight:bold;
+	color: black;
+}
+.AttributeValue
+{
+	color:blue;
+}
+.NodeValue
+{
+	color: black;
+}
+.Element {
+	border-left-color:#FFFFF6;
+	border-left-width:thin;
+	border-left-style:solid;
+	padding-left:20px;
+	padding-top:0px;
+	margin-top:0px;
+}
+.Clickable {	
+	font-weight:900;
+	font-size:large;
+	color: #800080;	
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+/*
+     FILE ARCHIVED ON 02:31:56 May 22, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:52:09 Mar 31, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

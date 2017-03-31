@@ -1,0 +1,31 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2008 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 162 2008-12-01 23:36:58Z emartin24 $
+ *
+ */
+
+body {padding:0; margin:0; height:100%; width:100%;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container { background-color:#fff;}
+#simplemodal-container a.modalCloseImg {background:url(/web/20110716190508im_/http://www.myzeo.com/interface/closex.gif) no-repeat; width:36px; height:36px; display:inline; z-index:3200; position:absolute; top:-22px; right:-22px; cursor:pointer;}
+#simplemodal-container #videoModalContent {padding:8px;}
+/*
+     FILE ARCHIVED ON 19:05:08 Jul 16, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:51:34 Mar 31, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
